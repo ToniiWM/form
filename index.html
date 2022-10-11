@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Biodata</title>
+</head>
+<body style="font-family:sans-serif ;">
+    <div class="wrap">
+        <h1 style="text-align:center ;">Form Biodata</h1>
+        <table>
+            <!-- nim -->
+            <tr>
+                <td>NIM</td>
+                <td>:&ensp;<input type="text"></td>
+            </tr>
+
+            <!-- nama -->
+            <tr>
+                <td>NAMA</td>
+                <td>:&ensp;<input type="text"></td>
+            </tr>
+
+            <!-- jenis kelamin -->
+            <tr>
+                <td>JENIS KELAMIN</td>
+                <td>:&ensp;<input type="radio">
+                <label for="">Pria</label>
+                <input type="radio">
+                <label for="">Wanita</label>
+                </td>
+            </tr>
+
+            <!-- jurusan -->
+            <tr>
+                <td>JURUSAN</td>
+                <td>:&ensp;<select>
+                    <option value="0">pilih...</option>
+                    <option value="Ilmu Komputer">Ilmu Komputer</option>
+                    <option value="Teknologi Informasi">Teknologi Informasi</option>
+                    <option value="Manajemen Akuntansi">Manajemen Akuntansi</option>
+                    <option value="Farmasi">Farmasi</option>
+                </select></td>
+            </tr>
+
+            <!-- HOBBY -->
+            <tr>
+                <td>HOBBY</td>
+                <td>:&ensp;
+                    <input type="checkbox" name="Komputer" id="komputer">
+                    <label for="komputer">Komputer</label>
+                    <input type="checkbox" name="Musik" id="musik">
+                    <label for="musik">Musik</label>
+                    <input type="checkbox" name="Olahraga" id="olahraga">
+                    <label for="olahraga">Olahraga</label>
+                    <input type="checkbox" name="Travelling" id="travelling">
+                    <label for="travelling">Travelling</label>
+                </td>
+            </tr>
+
+            <!-- CATATAN -->
+            <tr>
+                <td style="text-align: start; display: flex;">CATATAN</td>
+                <td> &ensp;
+                    <textarea name="" id="" cols="20" rows="5"></textarea>
+                </td>
+
+
+            </tr>
+
+            <!-- FOTO -->
+            <tr>
+                <td>FOTO</td>
+                <td>:&ensp;
+                    <input type="file" name="foto" id="">
+
+
+                </td>
+            </tr>
+            
+            <!-- EMAIL -->
+            <tr>
+                <td>EMAIL</td>
+                <td>:&ensp;
+                    <input type="email" name="" id="">
+                </td>
+            </tr>
+
+            <!-- SANDI LOGIN -->
+            <tr>
+                <td>SANDI LOGIN</td>
+                <td>:&ensp;
+                    <input type="password" name="" id="">
+                    
+                </td>
+            </tr>
+
+            <!-- ULANGI SANDI LOGIN -->
+            <tr>
+                <td>ULANGI SANDI LOGIN</td>
+                <td>:&ensp;
+                    <input type="password" name="" id="">
+                </td>
+            </tr>
+
+            <!-- button -->
+            <tr>
+                <td></td>
+                <td>&ensp;
+                    <input type="button" value="Simpan">
+                    <input type="button" value="Batal">
+                    <input type="button" value="Peringatan">
+                </td>
+                
+            </tr>
+
+        </table>
+    </div>
+</body>
+</html>
